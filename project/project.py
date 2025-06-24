@@ -36,7 +36,7 @@ input=["Free Msg Hey there darling it's been 3 week's now and no word back! I'd 
 input_features=feature_extraction.transform(input)
 # predict
 prediction=Model.predict(input_features)
-print(prediction)
+# print(prediction)
 if prediction[0]==1:
     print("Ham mail")
 else:
